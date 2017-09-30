@@ -7,7 +7,7 @@ To import the SwiftSpace into xCode, you can simply double click the "SwiftSpace
 
 ## How to perform tuple space operations.
 The framework contains the following tuple space operation and the syntax of them looks as follows
-```swift
+```
 put([x1, x2, ..., xn])
 get([x1, x2, ..., xn])
 getp([x1, x2, ..., xn])
