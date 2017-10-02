@@ -49,7 +49,9 @@ remote.put([5, true])
 ```
 ## Run test
 From xCode: Product->Scheme->SwiftSpaceTests
+
 Now open a test inside the SwiftSpaceTest folder, and click the diamond (near the name of the class) that indicates the run.
-![Run](https://ibb.co/dp0QTw)
+
+![Run](https://image.ibb.co/gmTZMG/Screenshot_2017_10_02_12_21_25.png)
 ## Run example
 Copy the content of the class you want to run (inside the "Examples" folder) as the main project.
