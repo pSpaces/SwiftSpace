@@ -8,10 +8,13 @@ You need an IDE, "xCode" by Apple has been used in this manual.
 To import the SwiftSpace into xCode, you can simply double click the "SwiftSpace.xcodeproj" file.
 
 ## How it works
-* **SpaceRepository creation with a gate**: 
+* **TupleSpace creation**: 
+```swift
+let albero = TupleSpace(TupleTree())
+```
+* **SpaceRepository creation with a Space (named "Albero") and a gate**: 
 ```swift
 let rep = SpaceRepository()
-let albero = TupleSpace(TupleTree())
 
 do {
     try rep.add("Albero", albero)
