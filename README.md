@@ -31,6 +31,7 @@ let template = ["Hello World", FormalTemplateField(Int.self), 5] as [TemplateFie
 template.match(tuple)
 ```
 * **Actions on a space**
+
 The framework contains the following tuple space operation and the syntax of them looks as follows
 ```
 put([x1, x2, ..., xn])
